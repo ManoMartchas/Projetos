@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(90deg, #00ff00, #99ff22, #00ff00);
+}
+div{
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    background: linear-gradient(90deg, #00ff00, #99ff22, #00ff00);
+    box-shadow: black 0 10px 15px 10px;
+    border-radius: 10px 15px 15px 15px;
+    padding: 5% 5%;
+}
+h1{
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    border: solid black 3px;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 1s;
+}
+select{
+    border: solid black 3px;
+    background: #ffffff;
+    border-radius: 3px;
+    padding: 10px;
+    transition: 1s;
+}
+
+.button{
+    border: solid black 3px;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 1s;
+}
+input:hover{
+    transform: translateX(10px);
+}
